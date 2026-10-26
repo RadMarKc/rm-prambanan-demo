@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rumah Makan Prambanan - Ayam bakar & ikan bakar khas Samarinda. Rating 4,4★. Full AC, pesan via WhatsApp. Jl. Bhayangkara No.18, Samarinda.">
+  <title>Rumah Makan Prambanan - Ayam Bakar & Ikan Bakar Samarinda</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#beranda" class="logo">
+        <span class="logo__icon">🍗</span>
+        <span class="logo__text">RM <strong>Prambanan</strong></span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#beranda" class="nav__link">Beranda</a>
+        <a href="#tentang" class="nav__link">Tentang</a>
+        <a href="#menu" class="nav__link">Menu</a>
+        <a href="#galeri" class="nav__link">Galeri</a>
+        <a href="#testimoni" class="nav__link">Testimoni</a>
+        <a href="#lokasi" class="nav__link">Lokasi</a>
+        <a href="https://wa.me/6282341315006?text=Halo%20RM%20Prambanan%2C%20saya%20mau%20pesan%20makanan" class="nav__link nav__link--cta" target="_blank" rel="noopener">Pesan Sekarang</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Buka menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="hero__bg"></div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <div class="hero__rating">
+            <span class="stars">★★★★<span class="star-half">★</span></span>
+            <span>4,4 • 239 ulasan Google</span>
+          </div>
+          <h1 class="hero__title">Rumah Makan <span>Prambanan</span></h1>
+          <p class="hero__tagline">Ayam Bakar &amp; Ikan Bakar Khas Samarinda</p>
+          <p class="hero__desc">Masakan rumahan dengan bumbu ricanya yang gurih. Tempat full AC, luas, dan nyaman untuk makan siang maupun makan malam — cocok untuk keluarga dan acara rame-rame.</p>
+          <div class="hero__actions">
+            <a href="https://wa.me/6282341315006?text=Halo%20RM%20Prambanan%2C%20saya%20mau%20pesan%20makanan" class="btn btn--primary" target="_blank" rel="noopener">📱 Pesan via WhatsApp</a>
+            <a href="#menu" class="btn btn--outline">Lihat Menu</a>
+          </div>
+          <div class="hero__badges">
+            <span class="pill">✅ Full AC</span>
+            <span class="pill">🕐 Buka 10.00–22.00</span>
+            <span class="pill">🧒 Kids Menu</span>
+            <span class="pill">🛵 GoFood Delivery</span>
+          </div>
+        </div>
+        <div class="hero__gallery">
+          <img src="assets/food-grill.jpg" alt="Ikan bakar spesial" class="hero__img hero__img--main">
+          <img src="assets/food-shrimp.jpg" alt="Udang saus spesial" class="hero__img hero__img--sub">
+          <img src="assets/food-patin-kiri.jpg" alt="Ikan patin bakar" class="hero__img hero__img--sub2">
+        </div>
+      </div>
+    </section>
+
+    <section class="tentang" id="tentang">
+      <div class="container tentang__inner">
+        <div class="tentang__photos">
+          <img src="assets/interior-ruang.jpg" alt="Ruang makan RM Prambanan" class="tentang__img tentang__img--1">
+          <img src="assets/interior-ac.jpg" alt="Interior berAC" class="tentang__img tentang__img--2">
+        </div>
+        <div class="tentang__text">
+          <span class="badge">Tentang Kami</span>
+          <h2>Makanan Rumahan, Suasana Restoran</h2>
+          <p>Rumah Makan Prambanan menyajikan masakan rumahan khas Samarinda dengan bumbu racikan sendiri. Porsi melimpah, harga terjangkau, dan tempat yang luas serta ber-AC membuatnya cocok untuk makan bersama keluarga, rekan kerja, maupun acara sekolah.</p>
+          <ul class="tentang__list">
+            <li><strong>Full AC &amp; luas</strong> — nyaman untuk makan rame-rame</li>
+            <li><strong>Bumbu racikan khas</strong> — ikan patin ukuran besar, ayam bakar manis gurih</li>
+            <li><strong>Paket lengkap</strong> — dapat sambal, sop, dan nasi porsi banyak</li>
+            <li><strong>Cash only</strong> — pembayaran tunai di kasir</li>
+            <li><strong>Dine-in, takeaway &amp; delivery</strong> via GoFood Samarinda</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <div class="container">
+        <div class="section__head">
+          <span class="badge">Daftar Menu</span>
+          <h2>Menu &amp; Harga</h2>
+          <p>Harga dapat berubah sewaktu-waktu — konfirmasi saat pemesanan.</p>
+        </div>
+
+        <div class="menu__tabs" role="tablist">
+          <button class="menu__tab menu__tab--active" data-tab="makanan">Makanan</button>
+          <button class="menu__tab" data-tab="minuman">Minuman</button>
+          <button class="menu__tab" data-tab="kecil">Makanan Kecil</button>
+        </div>
+
+        <div class="menu__panel menu__panel--active" id="tab-makanan">
+          <div class="menu__grid">
+            <div class="menu__item"><span class="menu__name">Ayam Bakar / Goreng</span><span class="menu__price">Rp 23.000</span></div>
+            <div class="menu__item"><span class="menu__name">Ayam Bakar Betutu</span><span class="menu__price">Rp 25.000</span></div>
+            <div class="menu__item"><span class="menu__name">Ayam Geprek</span><span class="menu__price">Rp 25.000</span></div>
+            <div class="menu__item"><span class="menu__name">Ayam Goreng Kremes</span><span class="menu__price">Rp 25.000</span></div>
+            <div class="menu__item"><span class="menu__name">Ikan Nila Bakar / Goreng / Betutu</span><span class="menu__price">Rp 36.000</span></div>
+            <div class="menu__item"><span class="menu__name">Ikan Mas Bakar / Goreng / Betutu</span><span class="menu__price">Rp 35.000</span></div>
+            <div class="menu__item menu__item--hot"><span class="menu__name">Ikan Patin Bakar / Goreng / Betutu</span><span class="menu__price">Rp 30.000</span></div>
+            <div class="menu__item"><span class="menu__name">Ikan Bandeng Presto</span><span class="menu__price">Rp 25.000</span></div>
+            <div class="menu__item"><span class="menu__name">Gami Ayam</span><span class="menu__price">Rp 25.000</span></div>
+            <div class="menu__item"><span class="menu__name">Gami Nila / Mas</span><span class="menu__price">Rp 35.000</span></div>
+            <div class="menu__item"><span class="menu__name">Gami Patin</span><span class="menu__price">Rp 30.000</span></div>
+            <div class="menu__item menu__item--hot"><span class="menu__name">Gami Udang</span><span class="menu__price">Rp 40.000</span></div>
+            <div class="menu__item"><span class="menu__name">Gami Cumi-cumi</span><span class="menu__price">Rp 35.000</span></div>
+            <div class="menu__item"><span class="menu__name">Pempek Selam / Lenggang</span><span class="menu__price">Rp 15.000</span></div>
+            <div class="menu__item"><span class="menu__name">Cah Kangkung / Cah Sawi</span><span class="menu__price">Rp 10.000</span></div>
+            <div class="menu__item"><span class="menu__name">Tempe / Tahu Goreng Krispi</span><span class="menu__price">Rp 10.000</span></div>
+            <div class="menu__item"><span class="menu__name">Terong Goreng / Bakar / Krispi</span><span class="menu__price">Rp 10.000</span></div>
+            <div class="menu__item"><span class="menu__name">Pete Goreng / Bakar</span><span class="menu__price">Rp 10.000</span></div>
+            <div class="menu__item"><span class="menu__name">Sayur Asam / Bening</span><span class="menu__price">Rp 5.000</span></div>
+            <div class="menu__item"><span class="menu__name">Nasi Putih</span><span class="menu__price">Rp 5.000</span></div>
+            <div class="menu__item menu__item--hot"><span class="menu__name">Paket Makmur</span><span class="menu__price">Rp 15.000</span></div>
+            <div class="menu__item"><span class="menu__name">Nasi Pecel Ayam</span><span class="menu__price">Rp 15.000</span></div>
+          </div>
+        </div>
+
+        <div class="menu__panel" id="tab-minuman">
+          <div class="menu__grid">
+            <div class="menu__item"><span class="menu__name">Teh Es / Panas</span><span class="menu__price">Rp 5.000</span></div>
+            <div class="menu__item"><span class="menu__name">Es Jeruk / Panas</span><span class="menu__price">Rp 7.000</span></div>
+            <div class="menu__item"><span class="menu__name">Es Jeruk Nipis</span><span class="menu__price">Rp 7.000</span></div>
+            <div class="menu__item"><span class="menu__name">Soda Gembira</span><span class="menu__price">Rp 15.000</span></div>
+            <div class="menu__item"><span class="menu__name">Juice Alpukat</span><span class="menu__price">Rp 15.000</span></div>
+            <div class="menu__item"><span class="menu__name">Juice Semangka / Melon</span><span class="menu__price">Rp 15.000</span></div>
+            <div class="menu__item"><span class="menu__name">Juice Sirsak / Mangga</span><span class="menu__price">Rp 15.000</span></div>
+            <div class="menu__item"><span class="menu__name">Juice Buah Naga</span><span class="menu__price">Rp 15.000</span></div>
+            <div class="menu__item"><span class="menu__name">Milo / Susu</span><span class="menu__price">Rp 10.000</span></div>
+            <div class="menu__item"><span class="menu__name">Cappuccino</span><span class="menu__price">Rp 10.000</span></div>
+            <div class="menu__item"><span class="menu__name">Teh Tarik</span><span class="menu__price">Rp 10.000</span></div>
+            <div class="menu__item"><span class="menu__name">Kopi Pontianak</span><span class="menu__price">Rp 15.000</span></div>
+            <div class="menu__item"><span class="menu__name">Kopi Tongkat Ali</span><span class="menu__price">Rp 20.000</span></div>
+            <div class="menu__item"><span class="menu__name">Kopi Kapal Api</span><span class="menu__price">Rp 5.000</span></div>
+            <div class="menu__item"><span class="menu__name">Air Mineral</span><span class="menu__price">Rp 5.000</span></div>
+            <div class="menu__item"><span class="menu__name">Pulpy Orange</span><span class="menu__price">Rp 6.000</span></div>
+            <div class="menu__item"><span class="menu__name">Frestea</span><span class="menu__price">Rp 7.000</span></div>
+            <div class="menu__item"><span class="menu__name">Coca Cola / Fanta / Sprite</span><span class="menu__price">Rp 7.000</span></div>
+            <div class="menu__item"><span class="menu__name">Thai Tea Jumbo</span><span class="menu__price">Rp 13.000</span></div>
+            <div class="menu__item"><span class="menu__name">Thai Tea Small</span><span class="menu__price">Rp 7.000</span></div>
+          </div>
+        </div>
+
+        <div class="menu__panel" id="tab-kecil">
+          <div class="menu__grid">
+            <div class="menu__item"><span class="menu__name">Kentang Goreng</span><span class="menu__price">Rp 10.000</span></div>
+            <div class="menu__item"><span class="menu__name">Pisket</span><span class="menu__price">Rp 10.000</span></div>
+            <div class="menu__item"><span class="menu__name">Lumpia Panas</span><span class="menu__price">Rp 10.000</span></div>
+            <div class="menu__item"><span class="menu__name">Tahu Brontak</span><span class="menu__price">Rp 10.000</span></div>
+            <div class="menu__item"><span class="menu__name">Singkong Keju</span><span class="menu__price">Rp 10.000</span></div>
+            <div class="menu__item"><span class="menu__name">Roti Bakar</span><span class="menu__price">Rp 13.000</span></div>
+            <div class="menu__item"><span class="menu__name">Susu Ultra</span><span class="menu__price">Rp 7.000</span></div>
+          </div>
+        </div>
+
+        <div class="menu__cta">
+          <p>Ingin pesan untuk acara atau delivery?</p>
+          <a href="https://wa.me/6282341315006?text=Halo%20RM%20Prambanan%2C%20saya%20mau%20pesan%20makanan" class="btn btn--primary" target="_blank" rel="noopener">📱 Pesan via WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="galeri" id="galeri">
+      <div class="container">
+        <div class="section__head">
+          <span class="badge">Galeri</span>
+          <h2>Sajian &amp; Suasana</h2>
+          <p>Beberapa foto dari pelanggan dan kami.</p>
+        </div>
+        <div class="galeri__grid">
+          <figure class="galeri__item"><img src="assets/food-patin-kiri.jpg" alt="Ikan patin bakar" loading="lazy"><figcaption>Ikan Patin Bakar</figcaption></figure>
+          <figure class="galeri__item"><img src="assets/food-ikan-nasi.jpg" alt="Paket ikan + nasi + es teh" loading="lazy"><figcaption>Paket Lengkap</figcaption></figure>
+          <figure class="galeri__item"><img src="assets/food-grill.jpg" alt="Ikan bakar spesial" loading="lazy"><figcaption>Ikan Bakar Spesial</figcaption></figure>
+          <figure class="galeri__item"><img src="assets/food-udang-maps.jpg" alt="Udang saus" loading="lazy"><figcaption>Udang Saus</figcaption></figure>
+          <figure class="galeri__item"><img src="assets/food-dimsum.jpg" alt="Dimsum" loading="lazy"><figcaption>Dimsum</figcaption></figure>
+          <figure class="galeri__item"><img src="assets/food-patin-kanan.jpg" alt="Ikan bakar + sop + sambal" loading="lazy"><figcaption>Bakar + Sop + Sambal</figcaption></figure>
+          <figure class="galeri__item"><img src="assets/interior-ac.jpg" alt="Ruang makan berAC" loading="lazy"><figcaption>Ruang Makan Full AC</figcaption></figure>
+          <figure class="galeri__item"><img src="assets/storefront.jpg" alt="Papan nama toko" loading="lazy"><figcaption>Papan Nama Toko</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimoni" id="testimoni">
+      <div class="container">
+        <div class="section__head">
+          <span class="badge">Testimoni</span>
+          <h2>Ulasan Pelanggan Google</h2>
+          <p>Rating 4,4★ dari 239 ulasan.</p>
+        </div>
+        <div class="testimoni__grid">
+          <article class="testimoni__card">
+            <div class="testimoni__stars">★★★★★</div>
+            <p>"Worth the price, tempat full AC, nyaman untuk makan siang dan makan malam. Patin nya ukuran besar dan bumbu ricanya jadi bikin tambah gurih. Paket lengkap dapat sambal lagi + sop, nasi porsi lumayan banyak."</p>
+            <div class="testimoni__author">
+              <div class="testimoni__avatar">SA</div>
+              <div><strong>Sonssonn Adiffa</strong><span>Google Reviews • 5★</span></div>
+            </div>
+          </article>
+          <article class="testimoni__card">
+            <div class="testimoni__stars">★★★★★</div>
+            <p>"Tempat ayam bakar yang enakkk. Di sini ayam bakarnya dominan rasa manis gurih. Rasanya enak, seorsi dapet seperempat ayam. Harganya juga terjangkau. Tempatnya juga bersih dan luas."</p>
+            <div class="testimoni__author">
+              <div class="testimoni__avatar">AP</div>
+              <div><strong>Anggasta Putra</strong><span>Local Guide • 5★</span></div>
+            </div>
+          </article>
+          <article class="testimoni__card">
+            <div class="testimoni__stars">★★★★☆</div>
+            <p>"Makanan rumahan, tempat cukup luas ber-AC, cukup estetik juga. Cocok buat makan rame-rame karena tempatnya memang cukup luas. Makanannya cukup variatif, ada dimsum dan siomai juga."</p>
+            <div class="testimoni__author">
+              <div class="testimoni__avatar">DK</div>
+              <div><strong>Daniel Kukuh</strong><span>Local Guide • 4★</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="lokasi" id="lokasi">
+      <div class="container">
+        <div class="section__head">
+          <span class="badge">Lokasi &amp; Jam Buka</span>
+          <h2>Kunjungi Kami</h2>
+        </div>
+        <div class="lokasi__grid">
+          <div class="lokasi__map">
+            <iframe src="https://www.google.com/maps?q=Rumah+Makan+Prambanan+Jl+Bhayangkara+No.18+Samarinda&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Peta Rumah Makan Prambanan" allowfullscreen></iframe>
+          </div>
+          <div class="lokasi__info">
+            <div class="lokasi__status" id="openStatus">
+              <span class="status__dot"></span>
+              <span class="status__text">Memuat status...</span>
+            </div>
+            <div class="lokasi__block">
+              <h4>📍 Alamat</h4>
+              <p>Jl. Bhayangkara No.18, Bugis,<br>Kec. Samarinda Kota, Kota Samarinda,<br>Kalimantan Timur 75242</p>
+            </div>
+            <div class="lokasi__block">
+              <h4>🕐 Jam Buka</h4>
+              <ul class="jam">
+                <li><span>Senin – Minggu</span><strong>10.00 – 22.00</strong></li>
+              </ul>
+            </div>
+            <div class="lokasi__block">
+              <h4>📞 Kontak</h4>
+              <p>
+                Telp: <a href="tel:+628115512195">0811-5512-195</a><br>
+                WA Delivery: <a href="https://wa.me/6282341315006" target="_blank" rel="noopener">0823-4131-5006</a><br>
+                Instagram: <a href="https://instagram.com/prambanan.rm" target="_blank" rel="noopener">@prambanan.rm</a>
+              </p>
+            </div>
+            <a href="https://www.google.com/maps/search/?api=1&query=Rumah+Makan+Prambanan+Jl+Bhayangkara+Samarinda" class="btn btn--primary btn--full" target="_blank" rel="noopener">🧭 Buka di Google Maps</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="logo__icon">🍗</span>
+        <span class="logo__text">RM <strong>Prambanan</strong></span>
+        <p>Ayam bakar &amp; ikan bakar khas Samarinda. Masakan rumahan, tempat nyaman full AC.</p>
+      </div>
+      <div class="footer__links">
+        <h5>Navigasi</h5>
+        <a href="#tentang">Tentang</a>
+        <a href="#menu">Menu</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#testimoni">Testimoni</a>
+      </div>
+      <div class="footer__links">
+        <h5>Kontak</h5>
+        <a href="tel:+628115512195">0811-5512-195</a>
+        <a href="https://wa.me/6282341315006" target="_blank" rel="noopener">WA 0823-4131-5006</a>
+        <a href="https://instagram.com/prambanan.rm" target="_blank" rel="noopener">@prambanan.rm</a>
+      </div>
+      <div class="footer__links">
+        <h5>Layanan</h5>
+        <a href="#menu">Dine-in</a>
+        <a href="#menu">Takeaway</a>
+        <a href="https://gofood.co.id" target="_blank" rel="noopener">GoFood Delivery</a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© 2026 Rumah Makan Prambanan • Jl. Bhayangkara No.18, Samarinda</p>
+      <p class="footer__note">Website preview — data &amp; harga akan dikonfirmasi oleh pemilik.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/6282341315006?text=Halo%20RM%20Prambanan%2C%20saya%20mau%20pesan%20makanan" class="wa__float" target="_blank" rel="noopener" aria-label="Chat WhatsApp">
+    <svg viewBox="0 0 32 32" width="28" height="28" fill="#fff"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.2 1.6 6L4 29l8.2-1.5c1.7.9 3.6 1.4 5.6 1.4h.2c6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.8 0-3.5-.5-5-1.3l-.4-.2-4.9.9.9-4.7-.3-.4C5.2 17.6 4.8 16.3 4.8 15 4.8 9 9.6 4.2 16 4.2S27.2 9 27.2 15 22.4 25.8 16 25.8zm6.2-7.4c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.7.2-.2.3-.8 1.1-1 1.3-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.3-.2-.3 0-.5.1-.7.1-.1.3-.4.5-.6.1-.2.2-.3.3-.5.1-.2 0-.4 0-.6-.1-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.3 1.4 3.6c.2.2 2.5 3.8 6 5.3.8.4 1.5.6 2 .7.8.3 1.6.2 2.2.1.7-.1 2-.8 2.3-1.6.3-.8.3-1.5.2-1.6-.1-.2-.3-.3-.6-.4z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
